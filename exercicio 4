@@ -1,0 +1,16 @@
+# Solicita os números ao usuário
+numero_inteiro1 = int(input("Digite o primeiro número inteiro: "))
+numero_inteiro2 = int(input("Digite o segundo número inteiro: "))
+numero_real = float(input("Digite o número real: "))
+
+# Calcula e exibe o produto do dobro do primeiro com metade do segundo
+produto = (2 * numero_inteiro1) * (numero_inteiro2 / 2)
+print("O produto do dobro do primeiro com metade do segundo é:", produto)
+
+# Calcula e exibe a soma do triplo do primeiro com o terceiro
+soma = (3 * numero_inteiro1) + numero_real
+print("A soma do triplo do primeiro com o terceiro é:", soma)
+
+# Calcula e exibe o terceiro elevado ao cubo
+cubo = numero_real ** 3
+print("O terceiro elevado ao cubo é:", cubo)
