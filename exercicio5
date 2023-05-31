@@ -1,0 +1,16 @@
+peso = float(input("Digite o peso de peixes em quilos: "))
+limite = 50 # Limite estabelecido pelo regulamento (50 quilos)
+excesso = peso - limite # Calcula o excesso de peso
+# Verifica se há multa a ser paga
+valor_multa_por_quilo = 4.00 # Valor da multa por quilo excedente
+if excesso > 0:
+multa = excesso * valor_multa_por_quilo # Calcula o valor da multa
+else:
+multa = 0
+
+if excesso > 0:
+print("Peso de peixes excedido!")
+print("Excesso de peso:", excesso, "quilos")
+print("Valor da multa a ser pago: R$", multa)
+else:
+print("Peso de peixes dentro do limite estabelecido.")
